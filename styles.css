@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(240, 240, 240);;
+    padding: 20px;
+    box-shadow: 0px 0px 3px black;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+main{
+    margin-top: 150px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.txtInfo{
+    width: 300px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 40px;
+}
+.info p{
+    margin: 30px 0;
+    color: rgb(138, 138, 138);
+    text-shadow: 0px 0px 1px ;
+}
+.info h1{
+    font-size: 50px;
+    text-shadow: 0px 0px 2px;
+}
+
+.photo{
+    width: 200px;
+    border-radius: 10%;
+    border: 3px solid black;
+}
+
+.git{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block p{
+    text-shadow: 0px 0px 1px;
+}
+
+.imgt{
+    width: 50px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(232, 232, 232);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(232, 232, 232);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p, footer h2{
+    margin: 20px;
+}
