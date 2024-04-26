@@ -1,0 +1,31 @@
+.app__footer{
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    gap: 2rem;
+}
+
+.app__footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.app__footer-nav h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+    .app__footer-nav{
+        flex-direction: column;
+    }
+    
+}

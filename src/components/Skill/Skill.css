@@ -1,0 +1,16 @@
+.app__skill{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    width: 120px;
+}
+
+.app__skill img{
+    width: 30px;
+}
+
+.app__skill-content{
+    text-align: left;
+    margin-left: 1rem;
+}

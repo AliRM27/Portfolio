@@ -1,0 +1,65 @@
+.app__project{
+    border: 1px solid rgb(124, 124, 124);
+    padding: 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 480px;
+    gap: 2.5rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.app__project h1{
+    font-size: 35px;
+}
+
+.app__project img{
+    border-radius: 10px;
+    width: 400px;
+}
+
+.app__project-links{
+    display: flex;
+    gap: 2rem;
+}
+
+.app__project-links button{
+    border: 1px solid rgb(124, 124, 124);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 140px;
+    background: rgb(250, 250, 250);
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+}
+
+.app__project-links button:hover{
+    background: rgb(60, 60, 60);
+    transition: 0.3s ease;
+    box-shadow: 0 0 5px 2px rgb(123, 123, 123);
+    color: rgb(237, 237, 237);
+}
+
+@media screen and (max-width:500px) {
+    .app__project img{
+        width: 220px;
+    }
+    .app__project {
+        width: 270px;
+        height: 320px;
+    }
+
+    .app__project h1{
+        font-size: 25px;
+    }
+
+    .app__project-links button{
+        font-size: 12px;
+        padding: 0.7rem;
+        width: 90px;
+    }
+}
