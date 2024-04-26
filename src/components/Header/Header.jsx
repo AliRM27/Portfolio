@@ -24,8 +24,8 @@ const Header = () => {
             <a href="#contact"><button type="button" >Contact Info</button></a>
           </div>
           <div className='app__header-links'>
-            <a href="https://github.com/AliRM27" target='_blank'><img src={git} alt="github" /></a>
-            <a href="https://www.linkedin.com/in/ali-mammadov-33a435303/" target='_blank'><img src={linkedin} alt="linkedin" /></a>
+            <a href="https://github.com/AliRM27" target='_blank' rel="noreferrer"><img src={git} alt="github" /></a>
+            <a href="https://www.linkedin.com/in/ali-mammadov-33a435303/" target='_blank' rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
           </div>
         </div>
       </div>
