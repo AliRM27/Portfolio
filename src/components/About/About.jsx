@@ -27,7 +27,7 @@ const About = () => {
           </div>
         </div>
         <div className='app__about-text'>
-          <p>Greetings! I'm Ali Mammadov, a driven and creative 17-year-old frontend developer with an insatiable curiosity for all things coding. My journey into the world of programming began at the tender age of 13, sparked by a fascination with technology and a desire to bring my ideas to life on the digital canvas. From the moment I wrote my first line of code, I was hooked. What started as a hobby quickly transformed into a genuine passion as I delved deeper into the intricacies of frontend development. The ability to blend design and functionality to create immersive and engaging user experiences captured my imagination like nothing else.</p>
+          <p>Hey, I'm Ali Mammadov, a 17-year-old frontend developer who's been hooked on coding since I was 13. I love the challenge and creativity that comes with building stuff on the internet. It all started when I discovered HTML and CSS online. I was fascinated by the idea of creating websites from scratch. As I learned more, I realized how much fun it was to turn ideas into real digital things. The best thing about coding is that there's always more to learn. Whether it's mastering a new coding trick or trying out a different design idea, I'm always up for a challenge. I'm always looking for ways to improve and grow as a developer. In the future, I want to use my coding skills to make a difference. Whether it's building websites that help people or teaching others how to code, I want to use technology for good.</p>
         </div>
       </div>
     </div>
