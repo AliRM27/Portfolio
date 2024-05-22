@@ -17,6 +17,8 @@
     border: 1px solid rgb(123, 123, 123);
     border-radius: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 2rem;
     width: 600px;
@@ -29,7 +31,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: inherit;
     width: 100%;
     gap:2rem;
 }

@@ -51,6 +51,9 @@
         width: 300px;
         padding: 1rem;
     }
+    .app__about-text{
+        text-align: center;
+    }
     
 }
 
@@ -73,6 +76,5 @@
 @media screen and (max-width:350px){
     .app__about-text{
         width: 250px;
-        text-align: center;
     }
 }
