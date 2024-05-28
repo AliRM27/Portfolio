@@ -20,7 +20,7 @@ const Header = () => {
             <h2 style={{color:"grey"}}>Frontend Developer</h2>
           </div>
           <div className='app__header-btn'>
-            <a href={cvpdf} download={"Ali Mammadov CV"} target='_blank' rel='noreferrer'><button type="button">Download CV</button></a>
+            <a href={cvpdf} download={"Ali-Mammadov-CV"} target='_blank' rel='noreferrer'><button type="button">Download CV</button></a>
             <a href="#contact"><button type="button" >Contact Info</button></a>
           </div>
           <div className='app__header-links'>
