@@ -27,5 +27,8 @@
     .app__footer-nav{
         flex-direction: column;
     }
+    .cr{
+        padding-bottom: 2rem;
+    }
     
 }

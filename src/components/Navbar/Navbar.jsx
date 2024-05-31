@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='app__navbar'>
       <div className='app__navbar-title'>
-        <h1>Ali Mammadov</h1>
+        <h1><a href="">Ali Mammadov</a></h1>
       </div>
       <div className='app__navbar-links'>
         <Menu/>
