@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^4.3.0",
+    "@babel/plugin-proposal-private-property-in-object": "^4.4.0",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6"
   }
 }
