@@ -9,7 +9,7 @@ const Footer = () => {
         <h3><a href="#experience">Experience</a></h3>
         <h3><a href="#projects">Projects</a></h3>
       </div>
-      <p className='cr'>Copyright &#169; 2024 <a href='#'>Ali Mammadov</a></p>
+      <p className='cr'>Copyright &#169; 2024 <a href='#nav'>Ali Mammadov</a></p>
     </div>
   )
 }
