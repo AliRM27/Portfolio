@@ -19,6 +19,7 @@ const Experience = () => {
             <Skill name={"JavaScript"} level={"Experienced"}/>
             <Skill name={"React"} level={"Basic"}/>
             <Skill name={"SASS"} level={"Basic"}/>
+            <Skill name={"TypeScript"} level={"Experienced"}/>
           </div>
         </div>
         <div className='app__exp-card'>
