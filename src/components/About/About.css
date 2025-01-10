@@ -30,6 +30,13 @@
     height: 150px;
 }
 
+.app__about-box:last-child{
+    p{
+        line-height: 25px;
+    }
+    
+}
+
 .app__about-box img{
     width: 25px;
 }
@@ -70,6 +77,13 @@
     .app__about-text{
         width: 300px;
         font-size: 15px;
+    }
+    .app__about-box:last-child{
+        height: 200px;
+        p:not(:last-child){
+            margin-bottom: 10px;
+        }
+        
     }
 }
 

@@ -17,13 +17,14 @@ const About = () => {
             <img src={exp} alt="experience" style={{cursor:"pointer"}}/>
             <h5 style={{fontSize:"20px"}}>Experience</h5>
             <p style={{fontSize:"15px"}}>2+ years</p>
-            <p style={{fontSize:"15px"}}>Frontend Development</p>
+            <p style={{fontSize:"15px"}}>Web Development</p>
           </div>
           <div className='app__about-box'>
             <img src={education} alt="education" style={{cursor:"pointer"}} />
             <h5 style={{fontSize:"20px"}}>Education</h5>
-            <p style={{fontSize:"15px"}}>Code Academy: Frontend Development</p>
-            <p style={{fontSize:"15px"}}>CS50 Python</p>
+            <p style={{fontSize:"15px"}}><strong>Codecademy:</strong> Frontend Development</p>
+            <p style={{fontSize:"15px"}}><strong>CS50:</strong> Computer Science</p>
+            <p style={{fontSize:"15px"}}><strong>CS50:</strong> Python</p>
           </div>
         </div>
         <div className='app__about-text'>
