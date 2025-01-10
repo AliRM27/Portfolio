@@ -17,7 +17,7 @@ const Experience = () => {
             <Skill name={"HTML"} level={"Experienced"}/>
             <Skill name={"CSS"} level={"Experienced"}/>
             <Skill name={"JavaScript"} level={"Experienced"}/>
-            <Skill name={"React"} level={"Basic"}/>
+            <Skill name={"React"} level={"Experienced"}/>
             <Skill name={"SASS"} level={"Basic"}/>
             <Skill name={"TypeScript"} level={"Experienced"}/>
           </div>
