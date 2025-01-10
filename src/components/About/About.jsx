@@ -16,7 +16,7 @@ const About = () => {
           <div className='app__about-box'>
             <img src={exp} alt="experience" style={{cursor:"pointer"}}/>
             <h5 style={{fontSize:"20px"}}>Experience</h5>
-            <p style={{fontSize:"15px"}}>1+ year</p>
+            <p style={{fontSize:"15px"}}>2+ years</p>
             <p style={{fontSize:"15px"}}>Frontend Development</p>
           </div>
           <div className='app__about-box'>
@@ -27,7 +27,7 @@ const About = () => {
           </div>
         </div>
         <div className='app__about-text'>
-          <p>Hey, I'm Ali Mammadov, a frontend developer who's been hooked on coding since I was 13. I love the challenge and creativity that comes with building stuff on the internet. It all started when I discovered HTML and CSS online. I was fascinated by the idea of creating websites from scratch. As I learned more, I realized how much fun it was to turn ideas into real digital things. The best thing about coding is that there's always more to learn. Whether it's mastering a new coding trick or trying out a different design idea, I'm always up for a challenge. I'm always looking for ways to improve and grow as a developer. In the future, I want to use my coding skills to make a difference. Whether it's building websites that help people or teaching others how to code, I want to use technology for good.</p>
+          <p>Hey, I'm Ali, a 17 year old web developer motivated by the desire of programming. I believe that age is just a number when it comes to creativity, skill, and drive. I have been building websites and applications which has equipped me with the knowledge of zeal and ambition. I welcome the potential to be part of a modern team and make a difference in the digital world. I am ready to be a part of a never ending learning cycle while still being on the latest trends of the web tech.</p>
         </div>
       </div>
     </div>
