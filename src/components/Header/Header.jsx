@@ -1,7 +1,7 @@
 import React from 'react'
 
 import git from '../../assets/github.png'
-import linkedin from '../../assets/linkedin.png'
+// import linkedin from '../../assets/linkedin.png'
 import me from '../../assets/profile.png'
 import cvpdf from '../../assets/Ali-Mammadov-CV.pdf'
 import './Header.css'
@@ -25,7 +25,7 @@ const Header = () => {
           </div>
           <div className='app__header-links'>
             <a href="https://github.com/AliRM27" target='_blank' rel="noreferrer"><img src={git} alt="github" /></a>
-            <a href="https://www.linkedin.com/in/ali-mammadov-33a435303/" target='_blank' rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
+            {/* <a href="https://www.linkedin.com/in/ali-mammadov-33a435303/" target='_blank' rel="noreferrer"><img src={linkedin} alt="linkedin" /></a> */}
           </div>
         </div>
       </div>
