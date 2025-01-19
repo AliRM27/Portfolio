@@ -28,7 +28,7 @@ const About = () => {
           </div>
         </div>
         <div className='app__about-text'>
-          <p>Hey, I'm Ali, a 17 year old web developer motivated by the desire of programming. I believe that age is just a number when it comes to creativity, skill, and drive. I have been building websites and applications which has equipped me with the knowledge of zeal and ambition. I welcome the potential to be part of a modern team and make a difference in the digital world. I am ready to be a part of a never ending learning cycle while still being on the latest trends of the web tech.</p>
+          <p>Hi! My name is Ali. I am a 17 year old web developer and programming is my absolute passion. I don’t think age matters when it comes to creativity, talent and ambition. I have spent a lot of time developing websites and applications which has developed my understanding of passion and determination. I am eager to be part of never ending education processes and at the same time able to keep up with the newest web technology trends.</p>
         </div>
       </div>
     </div>
