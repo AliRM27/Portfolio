@@ -3,9 +3,6 @@ import React from 'react'
 import './Project.css'
 
 const Project = ({image, name, gitLink, demoLink}) => {
-
-
-
   return (
     <div className='app__project'>
         <img src={image} alt="project" />

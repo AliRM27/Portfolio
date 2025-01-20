@@ -26,6 +26,9 @@
 @media screen and (max-width:400px){
     .app__contact-email{
         padding: 0.3rem;
+        a{
+            margin-right: 7px;
+        }
     }
     
 }
