@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <div className='app__contact-email'>
         <img src={imgEmail} alt="email" />
-        <p>amammadov097@gmail.com</p>
+        <a href="mailto:amammadov097@gmail.com">amammadov097@gmail.com</a>
       </div>
     </div>
   )
