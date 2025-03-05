@@ -32,7 +32,7 @@ const Projects = () => {
           gitLink={"https://github.com/AliRM27/gericht-restaurant"}
           demoLink={"https://gericht-restaurant-am.netlify.app"}
           description={
-            "A restaurant website with a modern design and smooth animations. The website is fully responsive and built using React and Tailwind CSS. Key features include a menu, contact form, and a gallery."
+            "A restaurant website with a modern design and smooth animations. The website is fully responsive and built using React and Tailwind CSS."
           }
           stack={"React, Tailwind"}
         />
