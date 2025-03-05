@@ -1,65 +1,90 @@
-.app__project{
-    border: 1px solid rgb(124, 124, 124);
-    padding: 1rem;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 450px;
-    height: 480px;
-    gap: 2.5rem;
-    background-color: rgb(250, 250, 250);
+.app__project {
+  border: 1px solid rgb(124, 124, 124);
+  padding: 1rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 770px;
+  gap: 2.5rem;
+  background-color: rgb(250, 250, 250);
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.app__project h1{
-    font-size: 35px;
+.app__project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.app__project img{
-    border-radius: 10px;
-    width: 400px;
+.app__project h1 {
+  font-size: 35px;
 }
 
-.app__project-links{
-    display: flex;
-    gap: 2rem;
+.app__project img {
+  border-radius: 10px;
+  width: 470px;
 }
 
-.app__project-links button{
-    border: 1px solid rgb(124, 124, 124);
-    padding: 1rem;
-    border-radius: 25px;
-    width: 140px;
-    background: rgb(250, 250, 250);
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 16px;
-    color: black;
+.app__project-links {
+  display: flex;
+  gap: 2rem;
 }
 
-.app__project-links button:hover{
-    background: rgb(60, 60, 60);
-    transition: 0.3s ease;
-    box-shadow: 0 0 5px 2px rgb(123, 123, 123);
-    color: rgb(237, 237, 237);
+.app__project-links button {
+  border: 1px solid rgb(124, 124, 124);
+  padding: 1rem;
+  border-radius: 25px;
+  width: 140px;
+  background: rgb(250, 250, 250);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  transition: all 0.5s ease;
 }
 
-@media screen and (max-width:500px) {
-    .app__project img{
-        width: 220px;
+.app__project-links button:hover {
+  background: rgb(60, 60, 60);
+  transition: 0.3s ease;
+  box-shadow: 0 0 5px 2px rgb(123, 123, 123);
+  color: rgb(237, 237, 237);
+}
+
+.app__project-description {
+  font-size: 17px;
+  text-align: left;
+  p {
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__project img {
+    width: 240px;
+  }
+  .app__project {
+    width: 270px;
+    height: 520px;
+  }
+
+  .app__project h1 {
+    font-size: 20px;
+  }
+
+  .app__project-links button {
+    font-size: 15px;
+    padding: 0.7rem;
+    width: 90px;
+  }
+  .app__project-description {
+    p {
+      line-height: 15px;
+      font-size: 14px;
+      margin: 0 0 1rem 0;
     }
-    .app__project {
-        width: 270px;
-        height: 320px;
-    }
-
-    .app__project h1{
-        font-size: 20px;
-    }
-
-    .app__project-links button{
-        font-size: 12px;
-        padding: 0.7rem;
-        width: 90px;
-    }
+  }
 }

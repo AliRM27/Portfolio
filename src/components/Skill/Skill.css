@@ -1,16 +1,23 @@
-.app__skill{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 150px;
-    width: 120px;
+.app__skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 150px;
+  width: 120px;
 }
 
-.app__skill img{
-    width: 30px;
+.app__skill:hover {
+  img {
+    scale: 1.5;
+  }
 }
 
-.app__skill-content{
-    text-align: left;
-    margin-left: 1rem;
+.app__skill img {
+  width: 30px;
+  transition: all 0.5s ease;
+}
+
+.app__skill-content {
+  text-align: left;
+  margin-left: 1rem;
 }

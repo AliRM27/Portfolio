@@ -1,133 +1,131 @@
-.app__header{
-    margin-top: 7rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.app__header {
+  margin-top: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.app__header-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
+.app__header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
-.app__header-content_img img{
-    width: 350px;
+.app__header-content_img img {
+  width: 350px;
 }
 
-.app__header-content_img{
-    border: 1px solid rgb(181, 181, 181);
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    overflow: hidden;
+.app__header-content_img {
+  border: 1px solid rgb(181, 181, 181);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.app__header-content_info{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.app__header-content_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.app__header-content_title h1{
-    font-size: 50px;
+.app__header-content_title h1 {
+  font-size: 50px;
 }
 
-.app__header-content_title h2{
-    font-size: 25px;
+.app__header-content_title h2 {
+  font-size: 25px;
 }
 
-.app__header-btn{
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+.app__header-btn {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-.app__header-btn button{
-    border-radius: 25px;
-    padding: 1rem;
-    border: 1px solid rgb(123, 123, 123);
-    background: white;
-    font-size: 15px;
-    width: 150px;
-    cursor: pointer;
-    color: black;
+.app__header-btn button {
+  border-radius: 25px;
+  padding: 1rem;
+  border: 1px solid rgb(123, 123, 123);
+  background: white;
+  font-size: 15px;
+  width: 150px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.3s ease;
 }
 
-.app__header-btn a:last-child button{
-    background-color: rgb(62, 62, 62);
-    color: white;
+.app__header-btn a:last-child button {
+  background-color: rgb(62, 62, 62);
+  color: white;
 }
 
-.app__header-btn button:hover{
-    background-color: rgb(62, 62, 62);
-    color: white;
-    transition: 0.3s ease;
-    box-shadow: 0px 0px 3px 2px rgb(123, 123, 123);
+.app__header-btn button:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  box-shadow: 0px 0px 3px 2px rgb(123, 123, 123);
 }
 
-.app__header-btn a:last-child button:hover{
-    background: black;
+.app__header-btn a:last-child button:hover {
+  background: black;
 }
 
-.app__header-links{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+.app__header-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.app__header-links img{
-    width: 30px;
+.app__header-links img {
+  width: 30px;
 }
 
-.app__header-btn a{
-    border-radius: 25px;
+.app__header-btn a {
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 850px) {
-    .app__header-content_title h1{
-        font-size: 35px;
-    }
+  .app__header-content_title h1 {
+    font-size: 35px;
+  }
 
-    .app__header-content_img img{
-        width: 250px;
-    }
+  .app__header-content_img img {
+    width: 250px;
+  }
 
-    .app__header-content_img{
-        width: 250px;
-        height: 250px;
-    }
+  .app__header-content_img {
+    width: 250px;
+    height: 250px;
+  }
 
-    .app__header-btn a button{
-        width: 100px;
-        font-size: 11px;
-        padding: 0.7rem;
-    }
+  .app__header-btn a button {
+    width: 100px;
+    font-size: 11px;
+    padding: 0.7rem;
+  }
 }
 
-@media screen and (max-width:600px) {
-    .app__header-content{
-        flex-direction: column;
-    }
+@media screen and (max-width: 600px) {
+  .app__header-content {
+    flex-direction: column;
+  }
 
-    .app__header-content_img img{
-        width: 150px;
-    }
+  .app__header-content_img img {
+    width: 150px;
+  }
 
-    .app__header-content_img{
-        height: 150px;
-        width: 150px;
-    }
-    .app__header-content{
-        gap: 2rem;
-    }
-
+  .app__header-content_img {
+    height: 150px;
+    width: 150px;
+  }
+  .app__header-content {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .app__header-content_title h1{
-        font-size: 20px;
-    }
-    
+  .app__header-content_title h1 {
+    font-size: 20px;
+  }
 }
