@@ -33,13 +33,13 @@ const About = () => {
     },
     {
       age: "Age 17",
-      title: "Advanced web development:",
-      items: ["TypeScript", "Node.js", "MongoDB"],
+      title: "Certifications:",
+      items: ["Codecademy Frontend Development Certificate"],
     },
     {
       age: "Age 17",
-      title: "Certifications:",
-      items: ["Codecademy Frontend Development Certificate"],
+      title: "Advanced web development:",
+      items: ["TypeScript", "Node.js", "MongoDB"],
     },
   ];
 
