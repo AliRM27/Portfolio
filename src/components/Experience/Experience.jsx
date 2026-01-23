@@ -1,49 +1,62 @@
-import React from "react";
-
-import Skill from "../Skill/Skill.jsx";
+import certificate from "../../assets/Praktikumszeugnis_Ali.pdf";
 import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div className="app__exp" id="experience">
-      <div className="app__exp-title">
-        <p style={{ fontSize: "15px", color: "rgb(123,123,123)" }}>
-          Explore My
-        </p>
-        <h1 style={{ fontSize: "50px" }}>Experience</h1>
-      </div>
-      <div className="app__exp-content">
-        <div className="app__exp-card">
-          <h2
-            style={{ fontSize: "30px", color: "rgb(80,80,80)" }}
-            className="title"
-          >
-            Frontend Development
-          </h2>
-          <div className="app__exp-skills">
-            <Skill name={"HTML"} level={"Experienced"} />
-            <Skill name={"CSS"} level={"Experienced"} />
-            <Skill name={"JavaScript"} level={"Experienced"} />
-            <Skill name={"React"} level={"Experienced"} />
-            <Skill name={"Tailwind"} level={"Experienced"} />
-            <Skill name={"TypeScript"} level={"Experienced"} />
+    <section id="experience">
+      <p className="section__text__p1">Explore My</p>
+      <h1 className="title">Experience</h1>
+      <div className="experience-details-container">
+        <div className="about-containers">
+          <div className="details-container">
+            <h2 className="experience-sub-title">
+              Startup – Founder & Developer
+            </h2>
+            <div className="article-container">
+              <p>
+                I founded and developed multiple software products as part of my
+                own start-up, taking responsibility for planning,
+                implementation, and technical decision-making. My work included
+                frontend development, basic backend logic, authentication, and
+                data structures. Through this experience, I gained strong
+                practical insight into building and validating real digital
+                products.
+              </p>
+            </div>
+          </div>
+
+          <div className="details-container">
+            <h2 className="experience-sub-title">
+              Frontend Intern – abcfinlab
+            </h2>
+            <div className="article-container">
+              <p>
+                During my internship at abcfinlab, I worked within a frontend
+                team on an Angular-based application. My main focus was writing
+                and executing end-to-end tests using Playwright, as well as
+                supporting quality assurance and bug analysis. I quickly adapted
+                to new tools and workflows in a professional software
+                development environment.
+              </p>
+              <div className="experience-btn-container">
+                <button
+                  className="btn experience-btn"
+                  onClick={() => window.open(certificate, "_blank")}
+                >
+                  Internship Certificate
+                </button>
+                <button
+                  className="btn experience-btn"
+                  onClick={() => window.open("https://abcfinlab.de/", "_blank")}
+                >
+                  Visit Website
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="app__exp-card">
-          <h2 style={{ fontSize: "30px", color: "rgb(80,80,80)" }}>
-            Backend Development
-          </h2>
-          <div className="app__exp-skills">
-            <Skill name={"Python"} level={"Experienced"} />
-            <Skill name={"Django"} level={"Beginner"} />
-            <Skill name={"Git"} level={"Experienced"} />
-            <Skill name={"Java"} level={"Basic"} />
-            <Skill name={"Node.js"} level={"Experienced"} />
-            <Skill name={"MongoDB"} level={"Experienced"} />
-          </div>
-        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

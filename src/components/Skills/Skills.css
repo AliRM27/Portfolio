@@ -1,6 +1,6 @@
-#experience {
+#skills {
   position: relative;
-  padding-top: 15rem;
+  margin-top: 15rem;
 }
 
 .experience-details-container {
@@ -46,11 +46,6 @@
   cursor: pointer;
 }
 
-.details-container p {
-  text-align: left;
-  font-size: 1.1rem;
-}
-
 .section__text__p1 {
   text-align: center;
   font-size: 1.25rem;
@@ -67,8 +62,8 @@
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -96,32 +91,4 @@
   .title {
     font-size: 2.5rem;
   }
-}
-
-.experience-btn {
-  border: 1px solid rgb(124, 124, 124);
-  padding: 1rem;
-  border-radius: 25px;
-  width: auto;
-  min-width: 140px;
-  background: white;
-  font-weight: 500;
-  cursor: pointer;
-  font-size: 16px;
-  color: black;
-  transition: all 0.3s ease;
-}
-
-.experience-btn:hover {
-  background: rgb(60, 60, 60);
-  color: white;
-  box-shadow: 0 0 5px 2px rgb(123, 123, 123);
-}
-
-.experience-btn-container {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 1rem;
 }

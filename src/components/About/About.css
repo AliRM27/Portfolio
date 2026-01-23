@@ -27,8 +27,9 @@
   border-radius: 25px;
   padding: 2rem;
   width: 500px;
-  height: 150px;
+  height: 200px;
   transition: all 0.5s ease;
+  gap: 0.5rem;
 }
 
 .app__about-box:hover {
@@ -60,7 +61,7 @@
 
 .app__about-text p {
   line-height: 27px;
-  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .app__about-timline {
