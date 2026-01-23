@@ -11,6 +11,7 @@ const Project = ({
   stack,
   learned,
   date,
+  isAvailable = true,
 }) => {
   const [modalOpen, setModalOpen] = React.useState(false);
   const [selectedImage, setSelectedImage] = React.useState(null);
@@ -91,6 +92,8 @@ const Project = ({
           <button
             type="button"
             onClick={() => window.open(demoLink, "_blank", "noreferrer")}
+            disabled={!isAvailable}
+            className={!isAvailable ? "disabled" : ""}
           >
             Live Demo
           </button>

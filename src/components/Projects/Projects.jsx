@@ -33,6 +33,7 @@ const Projects = () => {
           learned={
             "Through this project, I gained hands-on experience building a complete mobile product end-to-end. Key challenges included structuring scalable quiz data, implementing authentication flows, and designing a reward system that encourages replayability. I also improved my understanding of clean component architecture and API communication."
           }
+          isAvailable={false}
         />
         <Project
           images={[img2]}
