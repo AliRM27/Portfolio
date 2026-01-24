@@ -4,6 +4,15 @@ import qv_1 from "../../assets/qv_1.png";
 import qv_2 from "../../assets/qv_2.png";
 import qv_3 from "../../assets/qv_3.png";
 import qv_4 from "../../assets/qv_4.png";
+import qv_5 from "../../assets/qv_5.png";
+import qv_6 from "../../assets/qv_6.png";
+import ss_1 from "../../assets/ss_1.png";
+import ss_2 from "../../assets/ss_2.png";
+import ss_3 from "../../assets/ss_3.png";
+import ss_4 from "../../assets/ss_4.png";
+import ss_5 from "../../assets/ss_5.png";
+import ss_6 from "../../assets/ss_6.png";
+import ss_7 from "../../assets/ss_7.png";
 
 import "./Projects.css";
 import Project from "../Project/Project";
@@ -19,7 +28,7 @@ const Projects = () => {
       </div>
       <div className="app__projects-content">
         <Project
-          images={[qv_1, qv_2, qv_3, qv_4]}
+          images={[qv_1, qv_2, qv_3, qv_4, qv_5, qv_6]}
           name={"Quiz Verse"}
           gitLink={"https://github.com/AliRM27/Quiz-Verse"}
           demoLink={""}
@@ -32,6 +41,23 @@ const Projects = () => {
           }
           learned={
             "Through this project, I gained hands-on experience building a complete mobile product end-to-end. Key challenges included structuring scalable quiz data, implementing authentication flows, and designing a reward system that encourages replayability. I also improved my understanding of clean component architecture and API communication."
+          }
+          isAvailable={false}
+        />
+        <Project
+          images={[ss_1, ss_2, ss_3, ss_4, ss_5, ss_6, ss_7]}
+          name={"Sustainable Marketplace App"}
+          gitLink={"https://github.com/AliRM27/Sustainable-Marketplace-App"}
+          demoLink={""}
+          date={"January 2025 - June 2025"}
+          description={
+            "As part of the start-up, a mobile application inspired by the “Too Good To Go” concept was designed and developed. The goal was to enable retailers to offer surplus or unsold products from the categories of clothing, cosmetics, and toys as discounted product bundles. The focus was on implementing application logic, user interface design, and basic backend functionalities such as user authentication and data structures. The project was consciously discontinued after the completion of the prototype phase."
+          }
+          stack={
+            "React Native (Expo), Node.js, Express, MongoDB, REST APIs, Git/GitHub"
+          }
+          learned={
+            "This project gave me hands-on experience building a full mobile application prototype from scratch. Key challenges included translating a business idea into technical features, implementing user authentication, designing data structures, and managing the balance between rapid prototyping and clean architecture."
           }
           isAvailable={false}
         />

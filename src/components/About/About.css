@@ -104,6 +104,7 @@
   .app__about-box {
     padding: 1rem;
     width: 250px;
+    gap: 0;
   }
 
   .app__about-text {
