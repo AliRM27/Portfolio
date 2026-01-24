@@ -8,4 +8,5 @@ This repository contains the source code for my personal portfolio website, show
 
 **Projects included:**
 - Quiz Verse – Mobile quiz app
+- Sustainable Marketplace App – Prototype
 - Other small coding projects
