@@ -37,11 +37,17 @@ const About = () => {
         </div>
         <div className="app__about-text">
           <p>
-            I am an aspiring software developer with hands-on experience through
-            real-world projects, a start-up, and an internship. My main focus is
-            web and mobile application development using modern technologies. I
-            enjoy building complete products end-to-end and continuously
-            improving my technical skills in professional environments.
+            Junior Software Developer with hands-on experience building
+            full-stack web and mobile applications. I have independently
+            developed multiple products, including a startup project and Quiz
+            Verse — a mobile app currently on the App Store.{" "}
+          </p>{" "}
+          <p>
+            I take ownership of features from planning to deployment, including
+            frontend, backend, and database design. My focus is creating
+            scalable, maintainable, and user-friendly applications, while
+            continuously improving my technical skills and exploring
+            professional software development environments.
           </p>
         </div>
       </div>

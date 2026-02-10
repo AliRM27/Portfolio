@@ -54,9 +54,11 @@
 
 .app__about-text {
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
+  gap: 1.5rem;
 }
 
 .app__about-text p {

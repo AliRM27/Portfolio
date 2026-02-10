@@ -17,7 +17,7 @@ const Header = () => {
           <div className="app__header-content_title">
             <p style={{ fontWeight: "600", color: "grey" }}>Hello, I'm</p>
             <h1>Ali Mammadov</h1>
-            <h2 style={{ color: "grey" }}>Aspiring Software Developer</h2>
+            <h2 style={{ color: "grey" }}>Junior Software Developer</h2>
           </div>
           <div className="app__header-btn">
             <a
